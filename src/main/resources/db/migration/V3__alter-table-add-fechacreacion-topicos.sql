@@ -1,0 +1,1 @@
+alter table topicos add column fecha_creacion TIMESTAMP;

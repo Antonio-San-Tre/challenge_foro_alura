@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${DB_HOST}/${BASEDNAME}
+    username: ${USERNAME}
+    password: ${BASEPASSWORD}
+
+server:
+  error:
+    include-stacktrace: never
+
+
+api:
+  security:
+    secret: ${APISECURITYSECRET}
